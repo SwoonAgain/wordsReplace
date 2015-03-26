@@ -59,15 +59,8 @@ public class WordsReplace {
 	}
 	
 	public static void main(String[] args) {
-//		List<File> list = FileList.getFiles("C:\\apache-tomcat-7.0.56\\webapps\\"
-//				+ "shopxx-3.0Beta\\WEB-INF\\template", "ftl");
 		
 		List<File> list = FileList.getFiles("C:", "exe");
-		
-//		replace(list, "<meta name=\"copyright\" content=\"SHOP\\+\\+\" />", "");
-//		replace(list, "<meta name=\"author\" content=\"SHOP\\+\\+ Team\" />", "");
-//		replace(list, "- Powered By SHOP\\+\\+", "");
-//		replace(list, "2005-2013", "2014-2015");
 		
 	}
 }
